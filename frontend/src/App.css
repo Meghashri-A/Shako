@@ -1,0 +1,40 @@
+body {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* White text color */
+  font-family: 'Roboto', sans-serif; /* Creative font */
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif; /* Creative font for buttons */
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #1e88e5; /* Dark blue background for Register button */
+  border-color: #1e88e5; /* Dark blue border color */
+}
+
+.btn-success {
+  background-color: #1976d2; /* Dark blue background for Login button */
+  border-color: #1976d2; /* Dark blue border color */
+}
+
+.btn-primary:hover, .btn-success:hover {
+  background-color: #1565c0; /* Darker blue on hover */
+  border-color: #1565c0; /* Darker blue border on hover */
+}
